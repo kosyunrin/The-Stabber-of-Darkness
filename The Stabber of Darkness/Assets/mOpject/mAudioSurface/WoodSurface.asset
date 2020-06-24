@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: WoodSurface
   m_EditorClassIdentifier: 
   audioSource: {fileID: 8206458, guid: dfea19d1d34dd174d87195f78cb44ae7, type: 3}
-  audioMixerGroup: {fileID: 2699452455908764275, guid: a63f18b704a1b874a8dad30baf0939e6,
-    type: 2}
+  audioMixerGroup: {fileID: 24300002, guid: a63f18b704a1b874a8dad30baf0939e6, type: 2}
   TextureOrMaterialNames:
   - Wood6
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: d1512e4ecef24ba4c9d4005c30a4fc7c, type: 3}
   particleObject: {fileID: 0}
-  useStepMark: 0
-  stepMark: {fileID: 0}
+  useStepMark: 1
+  stepMark: {fileID: 184202, guid: b8cf3efdf419ad74f8c0f66ab6418371, type: 3}
   stepLayer:
     serializedVersion: 2
-    m_Bits: 0
-  timeToDestroy: 5
+    m_Bits: 1
+  timeToDestroy: 2

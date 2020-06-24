@@ -40,6 +40,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Blue
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 10
   description: Blue Keycard to open doors
   type: 0
@@ -76,6 +79,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Gold
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 12
   description: Gold Keycard to open doors
   type: 0
@@ -112,6 +118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Red
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 11
   description: Red Keycard to open doors
   type: 0
@@ -148,6 +157,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Shield
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 9
   description: 'Melee Shield
 
@@ -201,6 +213,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Short Katana
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 1
   description: Melee Weapon
   type: 1
@@ -254,6 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Sword
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 7
   description: Melee Weapon
   type: 1
@@ -307,6 +325,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Katana
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 8
   description: Melee Weapon
   type: 1
@@ -360,6 +381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 6
   description: 'Melee Shield
 
@@ -395,7 +419,7 @@ MonoBehaviour:
   enableDelayTime: 0.5
   disableDelayTime: 0.5
   customHandler: shieldHandler
-  twoHandWeapon: 1
+  twoHandWeapon: 0
   onDestroy:
     m_PersistentCalls:
       m_Calls: []
@@ -411,6 +435,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Max Health Potion
   m_EditorClassIdentifier: 
+  itemsToCraft:
+  - item: {fileID: 114000014017037032}
+    amount: 3
+  canCraft: 1
+  price: 0
   id: 5
   description: Increases the MaxHealth
   type: 0
@@ -451,6 +480,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Axe
   m_EditorClassIdentifier: 
+  itemsToCraft:
+  - item: {fileID: 114000011454979648}
+    amount: 1
+  - item: {fileID: 114000014005472098}
+    amount: 2
+  canCraft: 1
+  price: 0
   id: 0
   description: Melee Weapon
   type: 1
@@ -504,6 +540,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Stamina Up Potion
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 4
   description: Increase Stamina
   type: 0
@@ -544,6 +583,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Short Sword
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 3
   description: Melee Weapon
   type: 1
@@ -597,6 +639,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Health Potion
   m_EditorClassIdentifier: 
+  itemsToCraft: []
+  canCraft: 1
+  price: 0
   id: 2
   description: Recover Health
   type: 0
@@ -608,7 +653,7 @@ MonoBehaviour:
   dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
   attributes:
   - name: 0
-    value: 200
+    value: 25
     isOpen: 1
     isBool: 0
   isInEquipArea: 0
