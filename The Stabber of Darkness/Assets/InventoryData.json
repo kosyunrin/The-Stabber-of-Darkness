@@ -1,15 +1,76 @@
 {
-    "itemReferences": [],
+    "itemReferences": [
+        {
+            "amount": 1,
+            "id": 22,
+            "attributes": [
+                {
+                    "name": 2,
+                    "value": 25,
+                    "isOpen": false,
+                    "isBool": false
+                },
+                {
+                    "name": 6,
+                    "value": 1483,
+                    "isOpen": false,
+                    "isBool": false
+                },
+                {
+                    "name": 10,
+                    "value": 85,
+                    "isOpen": false,
+                    "isBool": false
+                },
+                {
+                    "name": 9,
+                    "value": 0,
+                    "isOpen": false,
+                    "isBool": false
+                }
+            ]
+        },
+        {
+            "amount": 1,
+            "id": 11,
+            "attributes": [
+                {
+                    "name": 2,
+                    "value": 25,
+                    "isOpen": false,
+                    "isBool": false
+                },
+                {
+                    "name": 6,
+                    "value": 25,
+                    "isOpen": false,
+                    "isBool": false
+                },
+                {
+                    "name": 10,
+                    "value": 85,
+                    "isOpen": false,
+                    "isBool": false
+                },
+                {
+                    "name": 9,
+                    "value": 0,
+                    "isOpen": false,
+                    "isBool": false
+                }
+            ]
+        }
+    ],
     "equipAreas": [
         {
             "slotsData": [
                 {
-                    "hasItem": false,
+                    "hasItem": true,
                     "indexOfItem": 0
                 },
                 {
-                    "hasItem": false,
-                    "indexOfItem": 0
+                    "hasItem": true,
+                    "indexOfItem": 1
                 },
                 {
                     "hasItem": false,
@@ -33,7 +94,7 @@
                     "indexOfItem": 0
                 }
             ],
-            "indexOfSelectedSlot": 1
+            "indexOfSelectedSlot": 0
         },
         {
             "slotsData": [
